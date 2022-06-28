@@ -1,0 +1,41 @@
+Q.1: Which month comes right before June ?
+option 0 : may
+option 1 : september
+option 2 : july
+option 3 :august
+
+Q.2 Which month comes right before July ?
+option 0 : may
+option 1 : september
+option 2 : july
+option 3 :june
+
+
+Q.3: Which month comes right before January ?
+option 0 : may
+option 1 : December
+option 2 : july
+option 3 :august
+
+Q.4: 3 + 4 = 7 ?
+option 0 : true
+option 1 : false
+
+
+Q.5: 3 + 4 = 17 ?
+option 0 : true
+option 1 : false
+
+
+
+
+
+
+
+
+
+
+
+
+
+
