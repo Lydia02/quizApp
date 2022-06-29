@@ -1,3 +1,10 @@
+const body = document.querySelector('body');
+const toggle = document.getElementById('toggle');
+toggle.onclick = function(){
+    toggle.classList.toggle('active');
+    body.classList.toggle('active');
+}
+
 
 
 
@@ -25,6 +32,8 @@ function setAvailableQuestions(){
     }
 
 }
+
+
 // set question number and question and options
 function getNewQuestion() {
     // set question number
@@ -70,6 +79,9 @@ function getNewQuestion() {
     }
    questionCounter++
 }
+
+
+
 //get the result of the current attempt question
 
 function getResult(element) {
@@ -123,6 +135,8 @@ function updateAnswerIndicator(markType){
     answersIndicatorContainer.children[questionCounter-1].classList.add(markType)
 
 }
+
+
 function next(){
     if(questionCounter === quiz.length){
         
@@ -160,7 +174,7 @@ function resetQuiz(){
     attempt = 0;
 
 }
-function tryAgainQuiz (){
+function tryAgainQuiz(){
     //hide the resultBoxx
     resultBox.classList.add("hide");
 
@@ -169,7 +183,7 @@ function tryAgainQuiz (){
     resetQuiz();
     startQuiz();
 }
-function home (){
+function home(){
     //hide result box
     resultBox.classList.add("hide");
     //show home box
@@ -200,6 +214,6 @@ function startQuiz() {
 
 }
 
-window.onload = function () {
-    homeBox.querySelector(".total-question").innerHTML =  quiz.length;
-}
+// window.onload = function () {
+//     homeBox.querySelector(".total-question").innerHTML = quiz.length;
+// }

@@ -8,10 +8,24 @@
     <title>Quiz-App</title>
 </head>
 <body>
+    <div id="toggle">
+        <i class = "indicator"></i>
+    </div>
+    
+    <section>
+    <div class="wrapper">
+        <div class="display">
+            <div id="time"></div>
+        </div>
+
+        <span></span>
+        <span></span>
+    </div>
+    </section>
     
     <div class = "home-box custom-box">
         <h1>Instruction:</h1>
-        <p>Total number of question:<span class = "total-questions"></span></p>
+        <p>Total number of question:<span class = "total-questions">20</span></p>
         <button type="button" class = "btn" onclick="startQuiz()">Start Quiz</button>
     </div>
 
@@ -26,10 +40,26 @@
         <div class="option-container">
            
         </div>
+ 
         <div class="next-question-btn">
             <button type = "button" class="btn" onclick = "next()">Next</button>
         </div>
         <div class="answers-indicator">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
             <div></div>
             <div></div>
             <div></div>
@@ -75,7 +105,7 @@
         <button type = "button" class = "btn" onclick = "home()">Home</button>
     </div> 
 
-    <script src = "questions.js"></script>
+    <script src = "question.js"></script>
     <script src = "script.js"></script>
 </body>
 </html>

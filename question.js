@@ -1,37 +1,37 @@
-const quiz = [
 
+const quiz = [
 {
     q: "The correct sequence of HTML tags for starting a webpage is",
-    options: ["Head, Title, HTML, body", "HTML, Body, Title, Head", "HTML, Head, Title, Body", "HTML, Head, Title, Body"],
+    options: ["Head, Title, HTML, body", "HTML, Body, Title, Head", "HTML, Title, Head, Body", "HTML, Head, Title, Body"],
     answer: 3
 },
 
 {
     q: "Which of the following element is responsible for making the text bold in HTML?",
-    options: ["<pre>", "<a>", "<b>", "<br>"],
+    options: ["&lt;pre&gt", "&lt;a&gt", "&lt;b&gt", "&lt;br&gt"],
     answer: 2
 },
 
 {
-    q: "<input> is -",
+    q: " &lt;input&gt is -",
     options: ["a format tag.", "an empty tag.", "All of the above", "None of the above"],
     answer: 1
 },
 
 {
     q: "Which of the following tag is used to make the underlined text?",
-    options: ["<i>", "<ul>", "<u>", "<pre>"],
+    options: ["&lt;i&gt", "&lt;b&gt", "&lt;u&gt", "&lt;pre&gt"],
     answer: 2
 },
 
 {
     q: "Which of the following attribute is used to provide a unique name to an element?",
-    options: ["class", "id", "type", "None of the above"],
+    options: ["h1", "id", "type", "None of the above"],
     answer: 1
 },
 
 {
-    q: "The property in CSS used to change the background color of an element is -",
+    q: "The property in CSS used to change the background color of an element is ?",
     options: ["bgcolor", "color", "background-color", "All of the above"],
     answer: 2
 },
