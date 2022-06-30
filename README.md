@@ -3,6 +3,7 @@ This is app is created by one of circle 237 mini circles.
 
 ## Features
 - Taking tests
+- Questions and answers are reshuffled
 - Getting your scores
 
 ### Authors
