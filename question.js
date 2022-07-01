@@ -57,7 +57,7 @@ const quiz = [
 {
     q: "Which of the following is the correct syntax to select all paragraph elements in a div element?",
     options: ["div p", "p", "div#p", "div ~ p"],
-    answer: 0
+    answer: 1
 },
 
 {
@@ -109,9 +109,9 @@ const quiz = [
 },
 
 {
-    q: "One of these programming languages is a low-level language:",
-    options: ["Python", "Java", "Assembly", "Ruby"],
-    answer: 2
+    q: "Before a computer can understand a program it must be..",
+    options: ["Translated into its machine code", "Translated into a high level language", "Translated into a low level language"],
+    answer: 0
 },
 
 {
