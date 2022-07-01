@@ -110,7 +110,7 @@ const quiz = [
 
 {
     q: "Before a computer can understand a program it must be..",
-    options: ["Translated into binary language", "Translated into a high level language", "Translated into a english language"],
+    options: ["Translated into binary language", "Translated into a high level language", "Translated into  english language"],
     answer: 0
 },
 
